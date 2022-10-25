@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'https://oems-api.herokuapp.com/';
+const baseURL = 'https://oems-production.up.railway.app/';
 
 const axiosInstance = axios.create({
 	baseURL: baseURL,
